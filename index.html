@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="tickets">
+        <h5>Which movie would you like to see?</h5>
+        <div class="dropdown">
+          <select name="movieList" class="form-control" id="movies">
+            <option>Choose a movie</option>
+            <option value="1">Bambi</option>
+            <option value="4">Annabella</option>
+            <option value="2">Singin' in the Rain</option>
+            <option value="3">Waterboy</option>
+          </select>
+          </div>
+          <br>
+        <h5>What time would you like to go?</h5>
+        <div class="dropdown">
+          <select class="form-control" id="time">
+            <option>Choose an time:</option>
+            <option value="1">12:00 matine</option>
+            <option value="2">5:00pm</option>
+            <option value="2">7:00pm</option>
+          </select>
+          </div>
+          <br>
+        <div>
+          <h5>How old are you?</h5>
+          <label for="age">Enter your age here:</label>
+          <input type="text" id="age">
+        </div>
+        <br>
+        <button type="submit" id="btn-primary">Submit</button>
+      </form>
+
+    </div>
+
+  </body>
+</html>
