@@ -10,3 +10,5 @@
   * Create a constructor from those inputs
   * Create a constructor method to evaluate price
   * Method will consider movie, time and age to output price
+  * Are you old enough to watch the movie
+  * How much will it cost to watch the movie
